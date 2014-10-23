@@ -14,6 +14,7 @@
 		FD8E1D1419F8E76F001A4004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E1D1319F8E76F001A4004 /* Images.xcassets */; };
 		FD8E1D1719F8E76F001A4004 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8E1D1519F8E76F001A4004 /* LaunchScreen.xib */; };
 		FD8E1D2319F8E76F001A4004 /* TutorialTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E1D2219F8E76F001A4004 /* TutorialTestTests.m */; };
+		FD8E1D2E19F8E877001A4004 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E1D2D19F8E877001A4004 /* TutorialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FD8E1D1C19F8E76F001A4004 /* TutorialTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8E1D2119F8E76F001A4004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8E1D2219F8E76F001A4004 /* TutorialTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialTestTests.m; sourceTree = "<group>"; };
+		FD8E1D2C19F8E877001A4004 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		FD8E1D2D19F8E877001A4004 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FD8E1D0D19F8E76F001A4004 /* ViewController.h */,
 				FD8E1D0E19F8E76F001A4004 /* ViewController.m */,
 				FD8E1D1019F8E76F001A4004 /* Main.storyboard */,
+				FD8E1D2C19F8E877001A4004 /* TutorialViewController.h */,
+				FD8E1D2D19F8E877001A4004 /* TutorialViewController.m */,
 				FD8E1D1319F8E76F001A4004 /* Images.xcassets */,
 				FD8E1D1519F8E76F001A4004 /* LaunchScreen.xib */,
 				FD8E1D0619F8E76F001A4004 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				FD8E1D0F19F8E76F001A4004 /* ViewController.m in Sources */,
 				FD8E1D0C19F8E76F001A4004 /* AppDelegate.m in Sources */,
+				FD8E1D2E19F8E877001A4004 /* TutorialViewController.m in Sources */,
 				FD8E1D0919F8E76F001A4004 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TutorialTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TutorialTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
